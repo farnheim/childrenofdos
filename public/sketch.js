@@ -23,6 +23,7 @@ function preload(){
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	frameRate(5);
+	noSmooth();
 	imageMode(CENTER);
 }
 
