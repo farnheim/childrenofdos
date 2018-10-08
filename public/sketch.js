@@ -4,7 +4,8 @@ let frame = 0;
 
 //preload images
 function preload(){
-  images[0] = loadImage('img/cod0.png');
+  images[0] = loadImage('/img/cod0.png');
+	images[1] = loadImage('/img/cod1.png');
 }
 
 //page setup
